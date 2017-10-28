@@ -44,9 +44,9 @@ avatar: "/img/avatar-icon.png"
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
 # navbar-col: "orange"
-navbar-img: "/img/doodles.png"
+navbar-img: "/img/shattered.png"
 # footer-col: "blue"
-footer-img: "/img/doodles.png"
+footer-img: "/img/shattered.png"
 # page-col: "#FF0000"
 # page-img: "/img/bgimage.png"
 
@@ -57,7 +57,7 @@ footer-img: "/img/doodles.png"
 author:
   name: Tvoj Otec
   email: "tvojotec@domain.com"
-  github: tvojotec    # eg. daattali
+  github: tvojotecexample    # eg. daattali
 
 
 # Select which links to show in the footer
@@ -90,7 +90,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+#url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
