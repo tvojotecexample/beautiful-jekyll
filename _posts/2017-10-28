@@ -1,0 +1,14 @@
+---
+layout: post
+title: First Post
+subtitle: ...on my fresh baked blog
+image: /img/4314g
+show-avatar: true
+category: blog
+tags: [General]
+css: '/css/extend-home.css'
+---
+{: .text-muted}
+
+#### Hosting a jekyll blog with incompatible plugins on [Github.com](https://www.github.com)
+
