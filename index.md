@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tvoj otec
-show-avatar: false
+show-avatar: true
 subtitle: ...test
 bigimg: 'img/bg-home.jpg'
 use-site-title: true
@@ -9,8 +9,6 @@ css: '/css/extend-home.css'
 ---
 ----
 
-<h1 class="text-center">Recent Posts</h1>
-<div class="spacer"></div>
 
 <div class="posts-list">
   {% for post in site.posts limit:5 %}
