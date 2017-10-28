@@ -20,7 +20,7 @@ install:
 
 environment:
   access_token:
-    secure: 2a555e4058e66f62eba853e9701051d99b95e8e7
+    secure: WB6bw4VjWa6aWEmMqnQxs/ywCrTKWxbgOz5u3Hi0tVoid1PymaS9vAJ6DXu8yrcN
 
 build: false
 
