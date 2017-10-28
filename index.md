@@ -3,7 +3,7 @@ layout: page
 title: Tvoj otec
 show-avatar: true
 subtitle: ...test
-bigimg: 'img/6124550-big-data-wallpaper (1).jpg'
+bigimg: 'img/w2.jpg'
 use-site-title: true
 css: '/css/extend-home.css'
 ---
