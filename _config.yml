@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 #Name of website
-title: " "
+title: Tvoj Otec
 
 
 # Short description of your site
@@ -36,22 +36,6 @@ avatar: "/img/avatar-icon.png"
 # adds a background pattern / image in the header and footer section
 bgpattern: "/img/4314.png"
 
-# --- Background colour/image options --- #
-
-# By default, the navigation bar and footer have a light gray background, and the main page
-# has a white background. You can specify a different background colour or a background image
-# for the navigation bar, the main page, and the footer.
-# navbar-col: "orange"
-#navbar-img: "/img/4314.png"
-# footer-col: "blue"
-#footer-img: "/img/4314.png"
-# page-col: "#FF0000"
-# page-img: "/img/bgimage.png"
-
-# --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Tvoj Otec
   email: "tvojotec@domain.com"
@@ -60,48 +44,9 @@ author:
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: false
-  facebook: false
   email: true
-  twitter: false
-  google-plus: false
   github: true
-  reddit: false
-  linkedin: false
-  xing: false
-  stackoverflow: false
-  snapchat: false
-  instagram: false
-  youtube: false
-  spotify: false
-  telephone: false
-  steam: false
-  twitch: false
-  yelp: false
 
-# Select which share links to show in posts
-share-links-active:
-  twitter: false
-  facebook: false
-  google: false
-  linkedin: false
-
-# How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
-#url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
-
-# --- Misc --- #
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
-
-# Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
-
-# Google Tag Manager ID
-#gtm: ""
-
-# Facebook App ID
-# fb_app_id: ""
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
@@ -117,8 +62,9 @@ title-separator: "-"
 timezone: "Europe/Bratislava"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
+permalink: /blog/:title/
+#permalink: /:year-:month-:day-:title/
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 kramdown:
@@ -139,10 +85,10 @@ defaults:
       path: "" # all files
     values:
       layout: "page"
-      show-avatar: false
+      show-avatar: true
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
-link-tags: true
+link-tags: false
 
 # Exclude these files from production site
 exclude:
