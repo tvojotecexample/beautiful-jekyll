@@ -33,9 +33,8 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/avatar-icon.png"
 
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
-# title-img: /path/to/image
+# adds a background pattern / image in the header and footer section
+bgpattern: "/img/4314.png"
 
 # --- Background colour/image options --- #
 
@@ -43,9 +42,9 @@ avatar: "/img/avatar-icon.png"
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
 # navbar-col: "orange"
-navbar-img: "/img/4314.png"
+#navbar-img: "/img/4314.png"
 # footer-col: "blue"
-footer-img: "/img/4314.png"
+#footer-img: "/img/4314.png"
 # page-col: "#FF0000"
 # page-img: "/img/bgimage.png"
 
@@ -154,12 +153,7 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - Vagrantfile
-  - appveyor.yml
 
 gems:
   - jekyll-paginate
-  - jekyll-sitemap
 
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
