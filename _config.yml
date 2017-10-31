@@ -21,7 +21,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "/img/cloud.png"
 
 # adds a background pattern / image in the header and footer section
 bgpattern: "/img/noisy_@2X.png"
