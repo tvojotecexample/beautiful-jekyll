@@ -4,7 +4,7 @@ baseurl: ""
 
 
 #Name of website
-title: " Here I am"
+title: " "
 
 
 # Short description of your site
@@ -24,7 +24,7 @@ navbar-links:
 avatar: "/img/avatar-icon.png"
 
 # adds a background pattern / image in the header and footer section
-bgpattern: "/img/4314.png"
+bgpattern: "/img/business-2717063_960_720.png"
 
 author:
   name: Tvoj Otec
