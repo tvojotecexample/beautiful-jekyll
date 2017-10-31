@@ -24,7 +24,7 @@ navbar-links:
 avatar: "/img/avatar-icon.png"
 
 # adds a background pattern / image in the header and footer section
-bgpattern: "/img/geometry2.png"
+bgpattern: "/img/gplaypattern_@2X.png"
 
 author:
   name: Tvoj Otec
