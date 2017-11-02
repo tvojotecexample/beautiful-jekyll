@@ -3,7 +3,7 @@ layout: page
 title: Tvoj otec
 show-avatar: true
 subtitle: ...test
-bigimg: 'img/business-926221_1920.jpg'
+bigimg: 'img/business_2.jpg'
 use-site-title: true
 css: '/css/extend-home.css'
 ---
