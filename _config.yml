@@ -24,7 +24,7 @@ navbar-links:
 #avatar: "/img/cloud.png"
 
 # adds a background pattern / image in the header and footer section
-bgpattern: "/img/noisy_@2X.png"
+bgpattern: "/img/concrete-texture.png"
 
 author:
   name: Tvoj Otec
