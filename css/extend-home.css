@@ -4,13 +4,14 @@
 a.project-link:link,
 a.project-link:visited {
     text-decoration: none;
-    color: #404040;
+    color: #7a7a7a;
+    #color: #404040;
 }
 
 a.project-link:hover {
     text-decoration: none;
     #color: #0085a1;
-    color: #0085a1;
+    color: #404040;
 }
 
 .project-card {
