@@ -9,8 +9,8 @@ layout: null
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
-  #color: #7a7a7a;
-  color: #7a7a7a;
+  #color: #404040;
+  color: #404040;
   position: relative;
   background: #FFF;
 
@@ -32,8 +32,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #7a7a7a;
-  #color: #0085a1;
+  color: #404040;
+  #color: #7a7a7a;
 }
 blockquote {
   color: #808080;
@@ -71,12 +71,12 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #7a7a7a;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #7a7a7a;
 }
 img::selection {
   color: white;
@@ -122,14 +122,14 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #7a7a7a;
+  color: #404040;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #0085a1;
+  color: #7a7a7a;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -279,7 +279,7 @@ footer {
 }
 
 footer a {
-  color: #7a7a7a;
+  color: #404040;
 }
 
 footer .list-inline {
@@ -327,13 +327,13 @@ footer .theme-by {
 
 .post-preview a {
   text-decoration: none;
-  color: #7a7a7a;
+  color: #404040;
 }
 
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085a1;
+  color: #7a7a7a;
 }
 
 .post-preview .post-title {
@@ -590,7 +590,7 @@ footer .theme-by {
   padding: 10px 5px;
   background: #FFF;
   border-radius: 0;
-  color: #7a7a7a;
+  color: #404040;
 }
 @media only screen and (min-width: 768px) {
   .pager li a {
@@ -600,8 +600,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #0085a1;
-  border: 1px solid #0085a1;
+  background: #7a7a7a;
+  border: 1px solid #7a7a7a;
 }
 
 .pager {
